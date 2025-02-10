@@ -2082,7 +2082,6 @@ class PageForShortCircuit:
         i_zw12 = round(i_zw12, 2)
         i_zw1 = round(i_zw1, 2)
 
-
         self.result_label.config(text=f"Maximum short-circuit: {i_max} A")
         self.result_label_2.config(text=f"Short-circuit at 1/3 of the section: {i_zw13} A")
         self.result_label_3.config(text=f"Short-circuit at 1/2 of the section: {i_zw12} A")
